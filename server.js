@@ -20,7 +20,6 @@ app.use('/api/tasks', userTasks)
 
 app.post('/newtask', (req, res)=>{});//POST request http://localhost:300/newtask
 
-console.log(process.env.PORT)
 
 // Start server
 const PORT = process.env.PORT || 3000;
